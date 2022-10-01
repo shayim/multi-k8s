@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  web:
+    image: shayim/multi-server
+    environment:
+      - PG_HOST=pg
+      - REDIS_HOST=redis
